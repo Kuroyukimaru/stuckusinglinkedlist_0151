@@ -54,7 +54,13 @@ public:
                 cout << current->data << " " << endl;
                 current = current->next;
             }
-        }
+            cout << endl;
+        }// Return the value of the top node
+    }
+
+    // IsEmpty operation: Check if the stack is empty
+    bool isEmpty() {
+        return top == NULL;     //Return true if the top poimter is NULL, indicating an empty stack
     }
 };
 
