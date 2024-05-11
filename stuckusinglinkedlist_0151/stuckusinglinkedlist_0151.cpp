@@ -64,7 +64,8 @@ public:
     }
 };
 
-int main()
-{
-    std::cout << "Hello World!\n";
+int main() {
+    Stack stack;
+    int choice = 0;
+    int value;
 }
