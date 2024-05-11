@@ -23,7 +23,10 @@ public:
         top = NULL;    // Initialize the stack with a null top pointer
     }
 
-
+    // push operation: Insert an element onto the top of the stack
+    int push(int value) {
+        
+    }
 };
 
 int main()
